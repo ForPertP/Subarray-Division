@@ -22,7 +22,7 @@ int birthday(vector<int> s, int d, int m)
     
     for (auto it = s.cbegin(); it <= s.cend()-m; ++it)
     {
-        if (d == std::accumulate(it, it + m, 0))
+        if (d == std::accumulate(it, it+m, 0))
         {
             count++;
         }
